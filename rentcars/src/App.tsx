@@ -1,4 +1,5 @@
 import './App.css'
+import InputContainer from './components/Inputs/InputConteiner'
 import Navbar from './components/NavBar/NavBar'
 
 function App() {
@@ -7,10 +8,14 @@ function App() {
     <div>
       <Navbar />
       <div style={{ paddingTop: '60px' }}>
-      {/*Space between navbar and the contents below*/}
           <h1>Olá projeto</h1>
       </div>
-      {/* app*/}
+      <div style={{ paddingTop: '70px' }}>
+      <InputContainer/>
+      </div>
+      <div style={{ height: '1000px' }}>
+          Mais conteúdo...
+      </div>
     </div>
   )
 }
