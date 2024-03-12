@@ -1,6 +1,8 @@
 import './App.css'
-import InputContainer from './components/Inputs/InputConteiner'
-import Navbar from './components/NavBar/NavBar'
+import InputContainer from './components/inputs/InputConteiner'
+import Navbar from './components/navbar/NavBar'
+import BackgroundContainer from './components/infos/BackgroundContainer'
+import InfoContainer from './components/infos/InfoContainer'
 
 function App() {
 
@@ -10,11 +12,16 @@ function App() {
       <div style={{ paddingTop: '60px' }}>
           <h1>Olá projeto</h1>
       </div>
-      <div style={{ paddingTop: '70px' }}>
-      <InputContainer/>
+      <div style={{ display: 'flex', paddingTop: '540px' }}>
+      <BackgroundContainer>
+        {/* Conteúdo do BackgroundContainer */}
+      </BackgroundContainer>
+      <InfoContainer>
+        {/* Conteúdo do InfoContainer */}
+      </InfoContainer>
       </div>
-      <div style={{ height: '1000px' }}>
-          Mais conteúdo...
+      <InputContainer/>
+      <div>
       </div>
     </div>
   )
