@@ -24,13 +24,14 @@ const InputContainer = () => {
             type="text" 
             placeholder="Local" // Colocando placeholder vazio
             style={{ 
-              flex: '2', 
+              flex: '7', 
               height: '40px', 
               padding: '10px', 
               fontSize: '16px', 
               borderRadius: '5px', 
               border: 'none', 
               marginRight: '5px', 
+              outline: 'none',
             }} 
           />
           <label style={{ position: 'absolute', top: '-20px', left: '0', fontSize: '15px', color: '#666' }}>Choose a location</label>
@@ -48,6 +49,7 @@ const InputContainer = () => {
               borderRadius: '5px', 
               border: 'none', 
               marginRight: '5px', 
+              outline: 'none',
             }} 
           />
           <label style={{ position: 'absolute', top: '-20px', left: '0', fontSize: '15px', color: '#666' }}>Pick up data</label>
@@ -61,9 +63,10 @@ const InputContainer = () => {
               fontSize: '16px', 
               borderRadius: '5px', 
               border: 'none', 
+              outline: 'none',
             }} 
           />
-          <label style={{ position: 'absolute', top: '-20px', left: '50%', fontSize: '15px', color: '#666', transform: 'translateX(-50%)' }}>Return data</label>
+          <label style={{ position: 'absolute', top: '-20px', left: '60%', fontSize: '15px', color: '#666', transform: 'translateX(-50%)' }}>Return data</label>
         </div>
       </div>
       <button 

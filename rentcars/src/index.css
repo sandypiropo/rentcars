@@ -13,17 +13,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 body {
-  margin: 0; /* Remove as margens padrão do corpo */
-  padding: 0; /* Remove o preenchimento padrão do corpo */
-  font-family: Arial, sans-serif; /* Define a família de fontes padrão */
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, sans-serif; 
 
-  /* Define a imagem de fundo */
-  background-image: url('../src/assets/background1.png'); /* Substitua 'nome-da-imagem.jpg' pelo nome da sua imagem */
-  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o container */
-  background-position: top; /* Posiciona a imagem no topo do container */
-  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+  background-image: 
+    url('../src/assets/car.png'),
+    url('../src/assets/background1.png'); 
+  background-size: 
+    1112px 695px,/* Largura e altura da segunda imagem */
+    cover; 
+  background-position: 
+    right,
+    top; 
+  background-repeat: 
+    no-repeat,
+    no-repeat; 
 }
 
 input {
