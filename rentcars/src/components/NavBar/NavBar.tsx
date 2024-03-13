@@ -53,6 +53,7 @@ const NavbarOptions = styled.div`
   }
 
   li:hover .dropdown {
+    color: #113259;
     display: block;
   }
 `;

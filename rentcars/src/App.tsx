@@ -6,10 +6,14 @@ function App() {
 
   return (
     <div>
-      <Navbar />
-      <BackgroundStyle/>
-      <div style={{ display: 'flex', paddingTop: '360px' }}>
-        <InputContainer/>
+      <div className='navbar'>
+        <Navbar/>
+        <div className='background-right'>
+          <BackgroundStyle/>
+        <div className='inputcontainer' style={{ display: 'flex', paddingTop: '360px' }}>
+          <InputContainer/>
+        </div>
+        </div> 
       </div>
     </div>
   )
