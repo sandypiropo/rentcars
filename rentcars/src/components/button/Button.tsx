@@ -1,10 +1,10 @@
-const BookButton = () => {
+const Button = () => {
   return (
     <button 
       style={{
         width: '300px',
         height: '50px',
-        backgroundColor: '#113259',
+        backgroundColor: '#008080',
         color: 'white',
         border: 'none',
         borderRadius: '5px',
@@ -13,9 +13,9 @@ const BookButton = () => {
         transition: 'background-color 0.3s',
       }}
     >
-      Book Your Trip
+      SEARCH
     </button>
   );
 }
 
-export default BookButton;
+export default Button;
