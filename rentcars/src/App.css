@@ -18,4 +18,44 @@ input {
   color: gray;
 }
 
+.navbar-container {
+  background-color: transparent;
+  position: fixed;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
+.navbar-options ul {
+  list-style-type: none;
+  display: flex;
+  gap: 4rem;
+  margin-right: 4rem;
+}
+
+.navbar-options li {
+  position: relative;
+}
+
+.navbar-options a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: 'Bahnschrift Condensed', sans-serif;
+}
+
+.navbar-options .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.navbar-options li:hover .dropdown {
+  color: #113259;
+  display: block;
+}

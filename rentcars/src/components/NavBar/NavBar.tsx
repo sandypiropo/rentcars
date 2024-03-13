@@ -3,12 +3,7 @@ import styled from 'styled-components';
 import logo from '../../assets/logo.png';
 
 const NavbarContainer = styled.nav`
-  background-color: #ffffffffff;
-  position: fixed;
-  color: #fff;
-  top: 0;
-  left: 0;
-  width: 100%;
+  @import url('../globalStyles.css');
 `;
 
 const NavbarContent = styled.div`
@@ -23,48 +18,16 @@ const Logo = styled.img`
 `;
 
 const NavbarOptions = styled.div`
-  ul {
-    list-style-type: none;
-    display: flex;
-    gap: 4rem;
-    margin-right: 4rem;
-  }
-
-  li {
-    position: relative;
-  }
-
-  a {
-    text-decoration: none;
-    color: black;
-    font-size: 24px;
-    font-family: 'Bahnschrift Condensed', sans-serif;
-  }
-
-  /* Dropdown */
-  .dropdown {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    display: none;
-    background-color: #fff;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-
-  li:hover .dropdown {
-    color: #113259;
-    display: block;
-  }
+  @import url('../globalStyles.css');
 `;
 
 const Navbar: React.FC = () => {
   return (
-    <NavbarContainer>
+    <NavbarContainer className="navbar-container">
       <NavbarContent>
         {/* Logo */}
         <Logo src={logo} alt="Logo" />
-        <NavbarOptions>
+        <NavbarOptions className="navbar-options">
           {/* Opções de navegação */}
           <ul>
             <li><a href="#">HOME</a></li>

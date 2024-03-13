@@ -10,6 +10,8 @@ function App() {
         <Navbar/>
         <div className='background-right'>
           <BackgroundStyle/>
+        <div className='content'>
+        </div>
         <div className='inputcontainer' style={{ display: 'flex', paddingTop: '360px' }}>
           <InputContainer/>
         </div>
