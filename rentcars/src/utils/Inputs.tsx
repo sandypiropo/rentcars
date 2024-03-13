@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
 import { BiMap, BiCalendar } from 'react-icons/bi';
-import BookButton from '../button/BookButton';
+import BookButton from '../components/button/BookButton';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 

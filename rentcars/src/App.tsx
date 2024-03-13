@@ -1,21 +1,21 @@
 import './App.css'
-import InputContainer from './components/inputs/InputConteiner'
 import Navbar from './components/navbar/NavBar'
-import BackgroundStyle from './components/infos/BackgroundStyle'
+import DoubleBackground from './components/content/DoubleImg'
 function App() {
 
   return (
     <div>
-      <div className='navbar'>
-        <Navbar/>
-        <div className='background-right'>
-          <BackgroundStyle/>
-        <div className='content'>
+      <div className='body'>
+        <div className='navbar'>
+          <Navbar/> 
+          <div className='content'>
+            <div className='background'>
+              <DoubleBackground/>
+            </div>
+            <div className='inputcontainer'>
+            </div>
+          </div> 
         </div>
-        <div className='inputcontainer' style={{ display: 'flex', paddingTop: '360px' }}>
-          <InputContainer/>
-        </div>
-        </div> 
       </div>
     </div>
   )
