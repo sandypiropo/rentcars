@@ -13,19 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-.info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-  justify-content: flex-start; 
-}
-
-.info-image {
-  max-width: 700px; /* Define a largura máxima da imagem */
-}
-
-
 input {
   background-color: white;
   color: gray;

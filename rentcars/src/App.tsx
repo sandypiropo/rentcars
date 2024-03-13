@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar />
       <BackgroundStyle/>
-      <div style={{ display: 'flex', paddingTop: '0px' }}>
+      <div style={{ display: 'flex'}}>
         <InfoContainer/>
       </div>
       <div style={{ display: 'flex', paddingTop: '360px' }}>
