@@ -4,10 +4,10 @@ import BookButton from '../button/BookButton';
 const InfoContainer = () => {
   return (
     <div>
-      <div>
-        <img src={textImage} alt="Text" />
+      <div className='info'>
+        <img src={textImage} alt="Text" className="info-image" />
+        <BookButton className="info-button"></BookButton>
       </div>
-      <BookButton></BookButton>
     </div>
   );
 }

@@ -13,27 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  margin: 0; 
-  padding: 0; 
-  font-family: Arial, sans-serif; 
 
-  background-image: 
-    url('../src/assets/car.png'),
-    url('../src/assets/background1.png'); 
-  background-size: 
-    1112px 695px,/* Largura e altura da segunda imagem */
-    cover; 
-  background-position: 
-    right,
-    top; 
-  background-repeat: 
-    no-repeat,
-    no-repeat; 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: flex-start; 
 }
+
+.info-image {
+  max-width: 700px; /* Define a largura máxima da imagem */
+}
+
 
 input {
   background-color: white;
   color: gray;
 }
+
 

@@ -2,16 +2,17 @@ import './App.css'
 import InputContainer from './components/inputs/InputConteiner'
 import Navbar from './components/navbar/NavBar'
 import InfoContainer from './components/infos/InfoContainer'
+import BackgroundStyle from './components/infos/BackgroundStyle'
 function App() {
 
   return (
     <div>
       <Navbar />
-      <div style={{ paddingTop: '60px' }}>
-      <InfoContainer>
-      </InfoContainer>
+      <BackgroundStyle/>
+      <div style={{ display: 'flex', paddingTop: '0px' }}>
+        <InfoContainer/>
       </div>
-      <div style={{ display: 'flex', paddingTop: '540px' }}>
+      <div style={{ display: 'flex', paddingTop: '360px' }}>
         <InputContainer/>
       </div>
     </div>
