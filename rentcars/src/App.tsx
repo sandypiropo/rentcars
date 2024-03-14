@@ -1,8 +1,8 @@
 import './App.css'
 import Navbar from './components/navbar/NavBar'
-import DoubleBackground from './components/content/DoubleImg'
-import BookButton from './components/button/Button'
-import { HiBars4 } from 'react-icons/hi2'
+import DoubleImg from './components/content/DoubleImg'
+import Button from './components/button/Button'
+import Inputs from './utils/Inputs'
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       <div className='body'>
         <div>
           <Navbar/> 
-
           <div className='content'>
             <div className='div1'>
               <h3 className='h3'>Discover the world </h3>
@@ -20,15 +19,20 @@ function App() {
                   When you rent with Rentcars, you're sure to get a great car at an affordable price.</p>
               </div>
               <div className='btn1'>
-                <BookButton/>
+                <Button/>
               </div>
             </div>
           
             <div className='div2'>
-              <DoubleBackground/>
+              <DoubleImg/>
+            </div>
+    
+            <div className='div3'>
+              <Inputs/>
             </div>
 
-            <div className='div3'>
+            <div className='div4'>
+              
             </div>
           </div> 
         </div>
