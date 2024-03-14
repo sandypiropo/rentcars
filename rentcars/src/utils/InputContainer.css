@@ -1,0 +1,49 @@
+.input-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .text-input, .date-input {
+    flex: 1;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 15px;
+    color: #666;
+  }
+  

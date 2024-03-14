@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/navbar/NavBar'
 import DoubleImg from './components/content/DoubleImg'
 import Button from './components/button/Button'
-import Inputs from './utils/Inputs'
+import Inputs from './utils/InputContainer'
 
 function App() {
   return (
