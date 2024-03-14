@@ -1,0 +1,33 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #66B3B3;
+    color: aliceblue;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .newsletter-form input[type="email"],
+  .newsletter-form button {
+    margin-top: 10px;
+  }
+  
+  .image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
