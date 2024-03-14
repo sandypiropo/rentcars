@@ -18,10 +18,9 @@ const InputContainer = () => {
       display: 'flex', 
       flexDirection: 'column', 
       alignItems: 'center',
-      width: '80%', 
       maxWidth: '900px', 
       margin: '0 auto', 
-      position: 'relative', // Adicionando posição relativa para elementos absolutos
+      position: 'relative', 
     }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', marginBottom: '20px'}}>
         {/* Ícone do local e label */}
