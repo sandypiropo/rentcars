@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/navbar/NavBar'
-import DoubleImg from './components/content/DoubleImg'
+import DoubleImg from './components/content/ImageSection'
 import Button from './components/button/Button'
 import Inputs from './utils/InputContainer'
 
@@ -32,7 +32,6 @@ function App() {
             </div>
 
             <div className='div4'>
-              
             </div>
           </div> 
         </div>
