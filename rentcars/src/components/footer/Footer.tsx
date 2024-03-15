@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <form className="newsletter-form">
-        <h2>Inscreva-se na nossa Newsletter</h2>
-        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. In labore recusandae ipsa! Tenetur aliquam mollitia veantium!</h4>
+        <h4>Newsletter</h4>
+        <h1>Subscribe to our Newsletter for new updates</h1>
         <div className="subscribe">
-            <input type="email" placeholder="Seu email" />
-            <button type="submit">Inscrever</button>
+            <input type="email" placeholder="Write your email" />
+            <button type="submit">SUBSCRIBE NOW</button>
         </div>
       </form>
-      <div className="image-container">
+      <div className="image-newsletter">
         <img src={RoadPic} alt="Road" />
       </div>
     </div>
