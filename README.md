@@ -1,46 +1,46 @@
-<h1>Rent Cars</h1>
+# rentcars
 
-<p>Projeto feito para avaliação na faculdade e maior entendimento de Frontend</p>
 
-<h2>Tecnologias Utilizadas</h2>
-<ul>
-  <!--
-<<li><strong>Pnpm:</strong> Gerenciador de pacotes para Node.js.</li>
-  <li><strong>Next.js:</strong> Framework React para renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).</li>
-  <li><strong>Axios:</strong> Cliente HTTP para realizar requisições à API.</li>
-  <li><strong>Typescript:</strong> Linguagem de programação que adiciona tipagem estática ao JavaScript.</li>
-  <li><strong>Tailwind CSS:</strong> Framework de CSS utilitário para estilização rápida e responsiva.</li> -->
-  <li><strong>React Icons:</strong> Biblioteca de ícones para React.</li>
-</ul>
+![Screenshot_5](https://github.com/sandypiropo/rentcars/assets/121200148/3d1c5644-6813-4cc0-b9e2-4012b9531717)
 
-<!-- <h2>Funcionalidades</h2>
-<ul>
-  <li>[x] Modo Escuro</li>
-  <li>[x] Custom hook para chamadas à API</li>
-  <li>[x] Filtro por Gênero</li>
-  <li>[x] Responsividade</li>
-  <li>[x] Tela de Carregamento</li>
-  <li>[x] Tratamento de Erros da API</li
-  <li>[x] Campo de Busca</li>
-</ul>>-->
 
-<h2>Como Rodar Localmente?</h2>
+[Project in progress] This project is being done with Typescript to be evaluated at college. 
+
+## Technologies Used
+- Npm
+- React Icons
+
+## What I'm Learning
+- Setting up a TypeScript project with the latest version of Vite and React.
+- Utilizing React Icons for iconography.
+- Folder organization best practices.
+- Exploring new CSS techniques.
+- Making a website responsive.
+
+## Planned Features
+- [ ] New font style
+- [ ] Responsive design
+- [ ] New Screens (Models and About us)
+- [ ] Footer
+
+<h2>How to Run Locally?</h2>
 <ol>
-  <li>Clone o repositório para sua máquina:</li>
+  <li>Clone the repository to your local machine:</li>
 </ol>
 
-<pre><code>git clone https://github.com/sandypiropo/rentcars</code></pre>
+<pre><code>git clone https://github.com/sandypiropo/rentcars.git</code></pre>
 
 <ol start="2">
-  <li>Instale as dependências:</li>
+  <li>Install the necessary dependencies:</li>
 </ol>
 
 <pre><code>npm install</code></pre>
 
 <ol start="3">
-  <li>Inicie a aplicação:</li>
+  <li>Start the application:</li>
 </ol>
 
 <pre><code>npm run dev</code></pre>
 
-<p>A aplicação estará disponível em <a href="http://localhost:5173/">http://localhost:5173</a>.</p>
+<p>The application will then be accessible at <a href="http://localhost:5173/">http://localhost:5173</a>.</p>
+
