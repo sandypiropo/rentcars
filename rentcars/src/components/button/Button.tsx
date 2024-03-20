@@ -1,10 +1,17 @@
 import React, { useState } from 'react';
 
-const Button = () => {
+
+const Button: React.FC<{onClick: () => void}> = ({onClick}) => {
   const [isHovered, setIsHovered] = useState(false);
+
+  const handleClick = () => {
+    console.log('Clicked Botton');
+    onClick();
+  }
 
   return (
     <button 
+      onClick={handleClick}
       style={{
         width: '300px',
         height: '50px',

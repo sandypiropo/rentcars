@@ -1,14 +1,23 @@
 import { useState } from 'react';
 import { BiMap, BiCalendar } from 'react-icons/bi';
-import BookButton from '../components/button/Button';
+import Button from '../components/button/Button';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import './InputContainer.css'; 
 
 const InputContainer = () => {
+  const [local, setLocal] = useState(""); 
   const [startDate, setStartDate] = useState<Date | null>(null); 
-  const [returnDate, setReturnDate] = useState<Date | null>(null); 
+  const [returnDate, setReturnDate] = useState<Date | null>(null);
+  const handleLocalChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setLocal(event.target.value);
+  };
 
+  const handleSubmit = () => {
+    console.log("Local:", local);
+    console.log("Pick up date:", startDate);
+    console.log("Return date:", returnDate);
+  }
   const setMinDate = () => {
     const today = new Date();
     today.setHours(0, 0, 0, 0); 
@@ -33,6 +42,8 @@ const InputContainer = () => {
             type="text" 
             placeholder="Local" 
             className="text-input" 
+            value={local}
+            onChange={handleLocalChange}
           />
           <label className="input-label">Choose a location</label>
         </div>
@@ -60,7 +71,13 @@ const InputContainer = () => {
           <label className="input-label">Return date</label>
         </div>
       </div>
-      <BookButton />
+      <Button onClick={handleSubmit}/>
+
+      <div>
+      <p>Local: {local}</p>
+      <p>Pick up date: {startDate ? startDate.toLocaleDateString() : 'Please select a date'}</p>
+      <p>Return date: {returnDate ? returnDate.toLocaleDateString() : 'Please select a date'}</p>
+    </div>
     </div>
   );
 }
