@@ -18,7 +18,7 @@ function App() {
                 <p className='p'>Compare the best prices from over 300 car rental companies <br/> 
                   When you rent with Rentcars, you're sure to get a great car at an affordable price.</p>
               <div className='btn1'>
-                <Button/>
+                <Button onClick={() => console.log("Button clicked")} />
               </div>
             </div>
           
