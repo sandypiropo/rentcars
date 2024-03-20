@@ -7,7 +7,7 @@ const Button: React.FC<{onClick: () => void}> = ({onClick}) => {
   const handleClick = () => {
     console.log('Clicked Botton');
     onClick();
-  }
+  };
 
   return (
     <button 
@@ -29,6 +29,6 @@ const Button: React.FC<{onClick: () => void}> = ({onClick}) => {
       SEARCH
     </button>
   );
-}
+};
 
 export default Button;

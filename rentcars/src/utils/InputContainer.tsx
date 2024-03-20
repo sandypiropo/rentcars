@@ -17,7 +17,7 @@ const InputContainer = () => {
     console.log("Local:", local);
     console.log("Pick up date:", startDate);
     console.log("Return date:", returnDate);
-  }
+  };
   const setMinDate = () => {
     const today = new Date();
     today.setHours(0, 0, 0, 0); 
@@ -80,6 +80,6 @@ const InputContainer = () => {
     </div>
     </div>
   );
-}
+};
 
 export default InputContainer;
