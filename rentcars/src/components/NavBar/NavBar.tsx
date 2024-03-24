@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import logo from '../../assets/logo.png';
+import Models from '../../pages/models/Models';
 
 const NavbarContainer = styled.nav`
   @import url('../globalStyles.css');
@@ -30,18 +31,10 @@ const Navbar: React.FC = () => {
         <NavbarOptions className="navbar-options">
           {/* Opções de navegação */}
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT US</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/aboutus">ABOUT US</a></li>
             <li>
-              <a href='#'>MODELS</a>
-              {/* Dropdown */}
-              <div className="dropdown">
-                <ul>
-                  <li>Modelo 1</li>
-                  <li>Modelo 2</li>
-                  <li>Modelo 3</li>
-                </ul>
-              </div>
+              <a href='/models'>MODELS</a>
             </li>
           </ul>
         </NavbarOptions>
