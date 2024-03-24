@@ -1,16 +1,3 @@
-:root {
-  margin: 0;
-  padding: 0;
-}
-
-.body {
-  width: 100%;
-  background: rgba(0, 0, 0, 0);
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
-
 .navbar-container {
   background-color: transparent;
   color: transparent;
@@ -52,62 +39,3 @@
   display: block;
 }
 
-.content {
-  padding-bottom: 100px;
-  height: auto;
-  color: black;
-  position: relative;
-  margin-top: 0px;
-
-}
-
-.content .div1 {
-  font-family: Arial;
-  padding-left: 20px;
-  padding-bottom: 25px;
-  margin-top: 9%;
-  letter-spacing: 2px;
-}
-
-.content .h3 {
-  font-size: 20px;
-}
-
-.content .h1 {
-  font-family: 'Bahnschrift Condensed', sans-serif;
-  font-size:  80px;
-
-}
-
-.content .p {
-  font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-
-}
-
-.content .div1 {
-  font-family: Arial;
-  padding-left: 20px;
-  padding-bottom: 25px;
-  letter-spacing: 2px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Alinha o texto à esquerda */
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.btn1 {
-  margin-top: 20px; /* Adiciona margem acima do botão */
-  align-self: flex-start; /* Centraliza verticalmente o botão */
-}
-
-
-input {
-  background-color: white;
-  color: gray;
-}

@@ -1,4 +1,3 @@
-import './App.css'
 import Navbar from '../../components/navbar/NavBar';
 import DoubleImg from '../../components/content/ImageSection';
 import Button from '../../components/button/Button';
